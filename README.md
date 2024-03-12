@@ -9,10 +9,12 @@ You will need to have python 3 (3.12 recommened) and pip installed in your compu
 To test this project 
 
 Create a virtual environment 
+
 python3 -m venv lambda  # you can replace lambda for whichevere name you want 
 source lambda/bin/activate 
 
 Install dependencies 
+
 pip install -r requirements.txt
 
 
