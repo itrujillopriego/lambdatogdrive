@@ -13,7 +13,7 @@ python3 -m venv lambda  # you can replace lambda for whichevere name you want
 source lambda/bin/activate 
 
 Install dependencies 
-pip install requirements.txt
+pip install -r requirements.txt
 
 
 After you have installed all dependenices, you will need to create a GCP project , enable the Drive api, create a service account and associtated keys for the account to be used to interface with google-api.
